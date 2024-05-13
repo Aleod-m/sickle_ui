@@ -2,7 +2,7 @@ use std::marker::PhantomData;
 
 use bevy::prelude::*;
 
-use crate::{FluxInteraction, FluxInteractionStopwatch, FluxInteractionUpdate, math::{Ease, ValueEasing}};
+use crate::{FluxInteraction, FluxInteractionStopwatch, FluxInteractionUpdate, math::ease::{Ease, ValueEasing}};
 
 pub struct AnimatedInteractionPlugin;
 
