@@ -1,9 +1,8 @@
 use std::marker::PhantomData;
 
 use bevy::prelude::*;
-use sickle_math::ease::{Ease, ValueEasing};
 
-use crate::{FluxInteraction, FluxInteractionStopwatch, FluxInteractionUpdate};
+use crate::{FluxInteraction, FluxInteractionStopwatch, FluxInteractionUpdate, math::{Ease, ValueEasing}};
 
 pub struct AnimatedInteractionPlugin;
 

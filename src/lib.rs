@@ -16,6 +16,9 @@ pub mod ui_builder;
 pub mod ui_commands;
 pub mod ui_style;
 pub mod widgets;
+pub mod math {
+    pub use sickle_math::*;
+}
 
 use assets::BuiltInAssetsPlugin;
 use drag_interaction::DragInteractionPlugin;
